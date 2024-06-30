@@ -1,0 +1,22 @@
+#wrapper{
+    text-align: center;
+}
+
+#drum-wrapper{
+    background-color: black;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 1px;
+    border: solid 1px black;
+}
+.drum-pad{
+    align-content: center;
+    width: auto;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.drum-pad:hover{
+    background-color: rgba(240, 248, 255, 0.685);
+}
