@@ -1,0 +1,1 @@
+#wrapper{text-align:center}#drum-wrapper{background-color:#000;display:grid;grid-template-columns:1fr 1fr 1fr;column-gap:1px;row-gap:1px;border:solid 1px black}.drum-pad{align-content:center;width:auto;height:30px;background-color:#f0f8ff}.drum-pad:hover{background-color:#f0f8ffaf}
