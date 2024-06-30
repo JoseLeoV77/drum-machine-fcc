@@ -31,7 +31,7 @@ export function App(){
     
     return (
         <div id="wrapper">
-            <h1>App de Baterias</h1>
+            <h1>Drum App</h1>
             <div id="drum-machine">
                 <div id="drum-wrapper">
                     <div className="drum-pad" id="qSound" onClick={handleClick} >
