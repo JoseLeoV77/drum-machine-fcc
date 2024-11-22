@@ -32,8 +32,8 @@ export function App(){
     return (
         <div id="wrapper">
             <h1>Drum App</h1>
-            <div id="drum-machine">
-                <div id="drum-wrapper">
+            <main id="drum-machine">
+                <section id="drum-wrapper">
                     <div className="drum-pad" id="qSound" onClick={handleClick} >
                         <audio id="Q" className="clip" src="https://cdn.freecodecamp.org/testable-projects-fcc/audio/Heater-1.mp3" ></audio>
                         Q
@@ -70,10 +70,10 @@ export function App(){
                         <audio id="C" className="clip" src="https://cdn.freecodecamp.org/testable-projects-fcc/audio/Cev_H2.mp3" ></audio>
                         C
                     </div>
-                </div>
-                <div id="display">{text}
+                </section>
+                <div id="display-text">{text}
                 </div> 
-            </div>
+            </main>
         </div>
     )
 }
